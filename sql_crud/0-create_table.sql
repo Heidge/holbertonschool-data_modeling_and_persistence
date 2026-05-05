@@ -1,0 +1,9 @@
+CREATE TABLE IF NOT EXISTS books (
+	id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+	title TEXT NOT NULL,
+	author TEXT NOT NULL,
+	genre TEXT NOT NULL,
+	price REAL,
+	stock INTEGER,
+	published_year INTEGER
+);
