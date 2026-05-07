@@ -1,1 +1,1 @@
-SELECT title, price FROM books
+SELECT title, price FROM books;
